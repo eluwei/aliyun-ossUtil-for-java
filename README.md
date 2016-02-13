@@ -1,12 +1,13 @@
-#Ali 云 的oss 模块util java packet包工具
-该项目是参考了QiKeMi 的 UEditor-for-aliyun-OSS[1] 的oss的模块,保留QiKeMi的oss模块的部分代码.该项目主要来源于我开发工作过程中的经验积累所成.
+# Ali云的oss 模块util java packet包工具
+该项目是参考了QiKeMi 的 [UEditor-for-aliyun-OSS](https://github.com/qikemi/UEditor-for-aliyun-OSS) 的oss的模块,保留QiKeMi的oss模块的部分代码.该项目主要来源于我开发工作过程中的经验积累所成.
 
-##功能
-###保留QikeMi 的功能
+## 功能
+### 保留QikeMi 的功能
 1. 简单文件上传.
 2. 获取客户端
 3. properties 参数配置模式
-###新增功能
+
+### 新增util
 1. 异步传输
 2. 临时文件上传
 3. 大文件批量上传
@@ -14,15 +15,16 @@
 5. 获取文件
 6. 已定义文件上传
 7. 已定义获取客户端
-### 未新加功能
+
+### 未来新加util
 1. 生成权限限制地址
 2. 应用实例.
 
-##PACKAGE说明
+## PACKAGE说明
 我重新实现的代码在com.zome.OSSManger 包里,而com.qikemi.package 包,主要修改了**com.qikemi.packages.alibaba.aliyun.oss.properties.OSSPropeties** 和**com.qikemi.packages.alibaba.aliyun.oss.OSSClientFactory**.
 
 ## properties 配置
-''' xml
+<pre><code>
 ## ALIYUN OSSClient Configure
 
 # Ueditor use or not story image to ALIYUN OSS, values true/false
@@ -71,8 +73,9 @@ bigFile =100*1024*1024L
 # 临时文件 过期时间设置 ,默认为1天,注意这个参数为int类型
 tempFileTimeOut=24* 3600 * 1000
 
-''' xml
+</code></pre>
+
+## 附注
+by @shaoyi [zhousahoyi@gmail.com](zhousahoyi@gmail.com)
 
 
-
-[1]https://github.com/qikemi/UEditor-for-aliyun-OSS

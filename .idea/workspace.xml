@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fedbe023-293e-42f3-ad2e-53d1e0f5c251" name="Default" comment="" />
+    <list default="true" id="fedbe023-293e-42f3-ad2e-53d1e0f5c251" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/aliyun-openservices-2.0.0-OTS.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/aliyun-sdk-oss-2.0.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-codec-1.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-logging-1.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/gson-2.2.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/httpclient-4.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/httpcore-4.1.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.servlet-api-3.0.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jdom-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/json-20140107.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/log4j-1.2.12.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/protobuf-java-2.4.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/aliyun-openservices-2.0.0-OTS.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/aliyun-sdk-oss-2.0.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/com/qikemi/packages/alibaba/aliyun/oss/BucketService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/com/qikemi/packages/alibaba/aliyun/oss/OSSClientFactory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/com/qikemi/packages/alibaba/aliyun/oss/ObjectService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/com/qikemi/packages/alibaba/aliyun/oss/properties/OSSClientProperties.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/com/qikemi/packages/baidu/ueditor/upload/AsynUploaderThreader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/com/qikemi/packages/baidu/ueditor/upload/SynUploader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/com/qikemi/packages/utils/SystemUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/com/zome/OSSManager/ObjectServiceMy.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/com/zome/OSSManager/OssManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/com/zome/OSSManager/upload/AsynUploaderThreader_oss.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/com/zome/OSSManager/upload/MultipartUpload$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/com/zome/OSSManager/upload/MultipartUpload$PartUploader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/com/zome/OSSManager/upload/MultipartUpload.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/com/zome/OSSManager/upload/SynUploader_oss.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/commons-codec-1.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/commons-logging-1.1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/gson-2.2.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/httpclient-4.1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/httpcore-4.1.4.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/javax.servlet-api-3.0.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/jdom-1.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/json-20140107.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/log4j-1.2.12.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/OssUtil/protobuf-java-2.4.1.jar" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="OssUtil.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,8 +80,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor vertical-scroll-proportion="-1.7805755">
-                <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <first_editor vertical-scroll-proportion="-2.0395684">
+                <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -167,10 +210,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/zome/OSSManager/upload/AsynUploaderThreader_oss.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qikemi/packages/alibaba/aliyun/oss/properties/OSSClientProperties.java" />
         <option value="$PROJECT_DIR$/src/main/resources/OSSKey.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zome/OSSManager/upload/MultipartUpload.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/zome/OSSManager/OssManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qikemi/packages/alibaba/aliyun/oss/BucketService.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/zome/OSSManager/upload/MultipartUpload.java" />
       </list>
     </option>
   </component>
@@ -181,7 +224,6 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="1378" />
     <option name="height" value="744" />
   </component>
@@ -986,16 +1028,16 @@
       <workItem from="1454641144000" duration="22806000" />
       <workItem from="1454673449921" duration="702000" />
       <workItem from="1454674250670" duration="1259000" />
-      <workItem from="1455353282568" duration="2259000" />
+      <workItem from="1455353282568" duration="2857000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68004000" />
+    <option name="totallyTimeSpent" value="68602000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="1" />
-    <editor active="true" />
+    <frame x="-8" y="0" width="1378" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1433,8 +1475,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor vertical-scroll-proportion="-1.7805755">
-            <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          <first_editor vertical-scroll-proportion="-2.0395684">
+            <caret line="0" column="8" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
             <folding />
           </first_editor>
           <second_editor />
